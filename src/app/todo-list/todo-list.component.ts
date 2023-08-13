@@ -15,6 +15,8 @@ import { TodoService } from '../todo.service';
 export class TodoListComponent{
   todos: any[] = [];
 
+
+
  constructor(private ts:TodoService){}
 
 
@@ -25,5 +27,27 @@ export class TodoListComponent{
  removeTodo(index:number){
  this.ts.deleteTodo(index)
  }
+
+
+
+
+
+// num1:number=10
+// num2:number=2
+
+// op:string=""
+
+// name:number=1000
+
+// person={
+// 'id':1,
+// "name":"Naresh",
+// "age":21
+// }
+
+// date=new Date()
+
+// percentage=0.98
+
  
 }
